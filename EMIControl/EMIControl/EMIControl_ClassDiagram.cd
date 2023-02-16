@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
+  <Class Name="CEMIControlDlg">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <NestedTypes>
+      <Enum Name="CEMIControlDlg::__unnamed_enum_0044_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>EMIControlDlg.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>7X/cCDmyaufXYNxJ7Pf+trO/g9b9H4y313/xhO37UY4=</HashCode>
+      <FileName>EMIControlDlg.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogMainInfo">
+    <Position X="3.5" Y="0.5" Width="2.25" />
+    <NestedTypes>
+      <Enum Name="CDialogMainInfo::__unnamed_enum_0024_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogMainInfo.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AIBAAAMFAIgAAFoACZDCAPQAAAwgAAIAgAgCRAAADAA=</HashCode>
+      <FileName>Dialog\DialogMainInfo.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogGlass">
+    <Position X="5.75" Y="0.5" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="CDialogGlass::__unnamed_enum_0014_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogGlass.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>1BgCNQcEWAIiASwYhBDEKWGQsqqJC0EADAwFSIFxgEw=</HashCode>
+      <FileName>Dialog\DialogGlass.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogReview">
+    <Position X="8.5" Y="0.5" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="CDialogReview::__unnamed_enum_0038_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogReview.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EyDpUGmgECKiiYikALHCACASYSBYqsA5aRFVxBij1mU=</HashCode>
+      <FileName>Dialog\DialogReview.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogLogin">
+    <Position X="19.25" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="CDialogLogin::__unnamed_enum_0022_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogLogin.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>SAAAQgMAAqAAAAgAgRAAQCAAAABACAABgABACAAAgAA=</HashCode>
+      <FileName>Dialog\DialogLogin.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAccessRight">
+    <Position X="17" Y="0.5" Width="2.25" />
+    <NestedTypes>
+      <Enum Name="CAccessRight::__unnamed_enum_0006_2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>dialog\AccessRight.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>YAUIAAEIAAAQEA8AAfABAyAAgAAAAAAAKADAAwAAAB4=</HashCode>
+      <FileName>dialog\AccessRight.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDefectList">
+    <Position X="13" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="CDefectList::__unnamed_enum_0008_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DefectList.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAQCABEQIAIAEEgBABAAPyAGgEAAIhAAEVAAAAAgACI=</HashCode>
+      <FileName>Dialog\DefectList.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogCCD">
+    <Position X="11.25" Y="0.5" Width="1.75" />
+    <NestedTypes>
+      <Enum Name="CDialogCCD::__unnamed_enum_000e_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogCCD.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAAAAUAEAAABAgAABAAACAQEAAAAAAAAACIAAABgAA=</HashCode>
+      <FileName>Dialog\DialogCCD.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogRecipe">
+    <Position X="45.25" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="CDialogRecipe::__unnamed_enum_002a_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogRecipe.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAICAEAAgQgQBkgCBACgGAEIBAEAAAAgARAIgIgAAA=</HashCode>
+      <FileName>Dialog\DialogRecipe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogRecipeCell">
+    <Position X="50.5" Y="0.5" Width="3.25" />
+    <NestedTypes>
+      <Enum Name="CDialogRecipeCell::__unnamed_enum_002c_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogRecipeCell.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>RCQm5c/JbHxGOMp8AfVJHiDmMHKm6AJIhAZaE0HCBE0=</HashCode>
+      <FileName>Dialog\DialogRecipeCell.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogRecipeCellPCL">
+    <Position X="53.75" Y="0.5" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="CDialogRecipeCellPCL::__unnamed_enum_002e_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>dialog\DialogRecipeCellPCL.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>XATAnwF4yI/wHvgAARBAACRAAiAAAGwAggxAAAAAEBA=</HashCode>
+      <FileName>dialog\DialogRecipeCellPCL.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogRecipeModel">
+    <Position X="47.75" Y="0.5" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="CDialogRecipeModel::__unnamed_enum_0030_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogRecipeModel.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EgAQCQGBABAACEgCCJJBNAAEAQQEgKBSQCQYBsAAAAQ=</HashCode>
+      <FileName>Dialog\DialogRecipeModel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogRecipePanel">
+    <Position X="56.5" Y="0.5" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="CDialogRecipePanel::__unnamed_enum_0032_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogRecipePanel.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BkYG2UGBqxKLkI9cBRBGNgmARaXiCRgAGCIoQgECAcA=</HashCode>
+      <FileName>Dialog\DialogRecipePanel.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogRecipeScan">
+    <Position X="59.25" Y="0.5" Width="3" />
+    <NestedTypes>
+      <Enum Name="CDialogRecipeScan::__unnamed_enum_0034_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogRecipeScan.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>zQxBJ1MCO4ZkiX5H4Z9PzOLN5pnnov+QHBXtwQXp6NE=</HashCode>
+      <FileName>Dialog\DialogRecipeScan.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogSystem">
+    <Position X="23.25" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="CDialogSystem::__unnamed_enum_003a_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogSystem.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgBAQEAAgAAAAkAADACAAAAAIgAgIAQAAACAAQAAUg=</HashCode>
+      <FileName>Dialog\DialogSystem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogGlassManuCtrl">
+    <Position X="25.75" Y="0.5" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="CDialogGlassManuCtrl::__unnamed_enum_0016_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogGlassManuCtrl.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>HBnBCMUAKghiBCuhwNMAEDAQAkEciAgOEABQAgX3FaI=</HashCode>
+      <FileName>Dialog\DialogGlassManuCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogIOCtrl">
+    <Position X="28.5" Y="0.5" Width="2" />
+    <NestedTypes>
+      <Enum Name="CDialogIOCtrl::__unnamed_enum_001a_2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogIOCtrl.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQA4IAUALAAQCAgAAJAFEjCEAEQAEgAAEAWBcAAAAIQ=</HashCode>
+      <FileName>Dialog\DialogIOCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogMotorCtrl">
+    <Position X="30.5" Y="0.5" Width="3.25" />
+    <NestedTypes>
+      <Enum Name="CDialogMotorCtrl::__unnamed_enum_0026_2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogMotorCtrl.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>Igw0Ae3H78YNmxwTPPWCLrwInxYoj+8DP3VaDksVlZg=</HashCode>
+      <FileName>Dialog\DialogMotorCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogLightCtrl">
+    <Position X="33.75" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="CDialogLightCtrl::__unnamed_enum_001e_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogLightCtrl.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEABMUjCgAACAsACLAAEGBEAhQgEAAAUA4ASgDIAIQ=</HashCode>
+      <FileName>Dialog\DialogLightCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogIPSCtrl">
+    <Position X="36.25" Y="0.5" Width="2" />
+    <NestedTypes>
+      <Enum Name="CDialogIPSCtrl::__unnamed_enum_001c_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogIPSCtrl.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAEEEAAAAAAgAABAAAAQAAAQAAABAAAAQAQAAAEA=</HashCode>
+      <FileName>Dialog\DialogIPSCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogAFCtrl">
+    <Position X="38.25" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="CDialogAFCtrl::__unnamed_enum_000a_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogAFCtrl.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>fgcWpmdu8buCWZrit9WODPgfz1BI7twzbqsISrgxKRI=</HashCode>
+      <FileName>Dialog\DialogAFCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogTriggerCtrl">
+    <Position X="40.75" Y="0.5" Width="3" />
+    <NestedTypes>
+      <Enum Name="CDialogTriggerCtrl::__unnamed_enum_003c_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogTriggerCtrl.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>QuSBAK3nARBuVFhFwNMvMitQgW7hvCQICQCAgNAkAAI=</HashCode>
+      <FileName>Dialog\DialogTriggerCtrl.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogAlign">
+    <Position X="63.75" Y="0.5" Width="2.75" />
+    <NestedTypes>
+      <Enum Name="CDialogAlign::__unnamed_enum_000c_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogAlign.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>o0d6cBWSEILAKwpQgZXGAntSMHdnoACRKFVQwDwlg6A=</HashCode>
+      <FileName>Dialog\DialogAlign.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogInline">
+    <Position X="68" Y="0.5" Width="3.25" />
+    <NestedTypes>
+      <Enum Name="CDialogInline::__unnamed_enum_0018_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogInline.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>9//3va89/+PV6nPv0tP94/vfWLb+edvr9/7Pv//C5Ls=</HashCode>
+      <FileName>Dialog\DialogInline.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogLogWindow">
+    <Position X="72.75" Y="0.5" Width="2" />
+    <NestedTypes>
+      <Enum Name="CDialogLogWindow::__unnamed_enum_0040_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DialogLogWindow.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAQEQBAAAAQAAABBAACAEAAAQAIEABAAAAAAAAAA=</HashCode>
+      <FileName>DialogLogWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CDialogDFServer">
+    <Position X="76.25" Y="0.5" Width="2.5" />
+    <NestedTypes>
+      <Enum Name="CDialogDFServer::__unnamed_enum_0010_1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Dialog\DialogDFServer.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>FbxOLMG6DwSYqpxYIJRGQ/xa2B6TBFoxRR0VWpQSTBc=</HashCode>
+      <FileName>Dialog\DialogDFServer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

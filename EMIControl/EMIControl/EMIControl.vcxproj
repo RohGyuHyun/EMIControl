@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E96069D8-FD46-41CC-9FD1-B1F62A7983E3}</ProjectGuid>
+    <RootNamespace>EMIControl</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files\Common Files\Microsoft Shared\OFFICE14;C:\Program Files %28x86%29\Common Files\microsoft shared\OFFICE11;C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Include\gl;C:\MELSEC\Common\INCLUDE;D:\Working\EMI\EMIControl\EMIControl\EMIControl\Include\XListCtrl;$(ProgramFiles)\Delta Tau\PMAC Executive Pro Suite\PComm32 Pro\Include;C:\Program Files\Matrox Imaging\Mil\Include;C:\Program Files\MVTec\HALCON-12.0\include\cpp;C:\Program Files\MVTec\HALCON-12.0\include;D:\Working\EMI\EMIControl\EMIControl\EMIControl\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v7.0A\Lib\x64;C:\MELSEC\Common\Lib\x64;D:\Working\EMI\EMIControl\EMIControl\EMIControl\Include\XListCtrl;C:\Program Files\Matrox Imaging\Mil\LIB;C:\Program Files\MVTec\HALCON-12.0\lib\x64-win64;D:\Working\EMI\EMIControl\EMIControl\EMIControl\Include;C:\Program Files\Toshiba Teli\TeliCamSDK\TeliCamApi\lib\x64;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN64;_WINDOWS;_DEBUG;DEFECT;PCL_TEST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\working\emi\EMIControl\EMIControl\EMIControl\Include\Ezi;D:\Working\EMI\EMIControl\EMIControl\EMIControl\Include\SerialPort;C:\Program Files\Matrox Imaging\Mil\Include;C:\Program Files\MVTec\HALCON-12.0\include;C:\Program Files\MVTec\HALCON-12.0\include\cpp;D:\Working\EMI\EMIControl\EMIControl\EMIControl\Include;D:\Working\EMI\EMIControl\EMIControl\EMIControl;C:\Program Files\Toshiba Teli\TeliCamSDK\TeliCamApi\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OpenMPSupport>false</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>mil.lib;halconcpp10XL.lib;include/_CtrlImageRect.lib;winmm.lib;TeliCamApi64.lib;include/_FuncModuleBasic.lib;include/_FuncModuleHal.lib;TeliCamUtl64.lib;atf_lib_dll.lib;MdFunc32.lib;EziMOTIONPlusRx64.lib;atf_lib.lib;msxml2.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\working\emi\EMIControl\EMIControl\EMIControl\Include\Ezi;C:\Program Files\Matrox Imaging\Mil\LIB;C:\Program Files\MVTec\HALCON-12.0\lib\x64-win64;D:\Working\EMI\EMIControl\EMIControl\EMIControl\Include;$(TeliCamSDK)TeliCamApi/lib/x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib</IgnoreSpecificDefaultLibraries>
+      <StackReserveSize>100000000</StackReserveSize>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="EMIControl_ClassDiagram.cd" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\ACCW.ico" />
+    <None Include="res\ACW.ico" />
+    <None Include="res\bitmap1.bmp" />
+    <None Include="res\bitmap_i.bmp" />
+    <None Include="res\bmp00001.bmp" />
+    <None Include="res\bmp00002.bmp" />
+    <None Include="res\EMIControl.ico" />
+    <None Include="res\EMIControl.rc2" />
+    <None Include="res\icon1.ico" />
+    <None Include="res\INVENIA.bmp" />
+    <None Include="res\INVENIA.png" />
+    <None Include="res\Machine0.bmp" />
+    <None Include="res\Machine1.bmp" />
+    <None Include="res\panel.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="btnenhctrl.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="DialogLogWindow.h" />
+    <ClInclude Include="dialog\AccessRight.h" />
+    <ClInclude Include="Dialog\DefectList.h" />
+    <ClInclude Include="Dialog\DialogAFCtrl.h" />
+    <ClInclude Include="Dialog\DialogAlign.h" />
+    <ClInclude Include="Dialog\DialogCCD.h" />
+    <ClInclude Include="Dialog\DialogDFServer.h" />
+    <ClInclude Include="Dialog\DialogFilmAlign.h" />
+    <ClInclude Include="Dialog\DialogGlass.h" />
+    <ClInclude Include="Dialog\DialogGlassManuCtrl.h" />
+    <ClInclude Include="Dialog\DialogInline.h" />
+    <ClInclude Include="Dialog\DialogIOCtrl.h" />
+    <ClInclude Include="Dialog\DialogIPSCtrl.h" />
+    <ClInclude Include="Dialog\DialogLightCtrl.h" />
+    <ClInclude Include="Dialog\DialogLogAlarm.h" />
+    <ClInclude Include="Dialog\DialogLogin.h" />
+    <ClInclude Include="Dialog\DialogMainInfo.h" />
+    <ClInclude Include="Dialog\DialogMotorCtrl.h" />
+    <ClInclude Include="Dialog\DialogMSG.h" />
+    <ClInclude Include="Dialog\DialogRecipe.h" />
+    <ClInclude Include="Dialog\DialogRecipeCell.h" />
+    <ClInclude Include="dialog\DialogRecipeCellPCL.h" />
+    <ClInclude Include="Dialog\DialogRecipeModel.h" />
+    <ClInclude Include="Dialog\DialogRecipePanel.h" />
+    <ClInclude Include="Dialog\DialogRecipeScan.h" />
+    <ClInclude Include="Dialog\DialogReview.h" />
+    <ClInclude Include="Dialog\DialogSystem.h" />
+    <ClInclude Include="Dialog\DialogTriggerCtrl.h" />
+    <ClInclude Include="Dialog\Inline_define.h" />
+    <ClInclude Include="Dialog\Inline_typedef.h" />
+    <ClInclude Include="EMIControl.h" />
+    <ClInclude Include="EMIControlDlg.h" />
+    <ClInclude Include="Include\atf_def.h" />
+    <ClInclude Include="Include\atf_lib.h" />
+    <ClInclude Include="Include\Clientsok.H" />
+    <ClInclude Include="Include\CommThread.h" />
+    <ClInclude Include="Include\epp.h" />
+    <ClInclude Include="Include\Ezi\FAS_EziMOTIONPlusR.h" />
+    <ClInclude Include="Include\FTP\FPTClient.h" />
+    <ClInclude Include="Include\Hash.h" />
+    <ClInclude Include="Include\PLC.h" />
+    <ClInclude Include="Include\PLCComm.h" />
+    <ClInclude Include="Include\PMAC.h" />
+    <ClInclude Include="Include\PMACComm.h" />
+    <ClInclude Include="Include\recipe.h" />
+    <ClInclude Include="Include\Runtime.h" />
+    <ClInclude Include="Include\SerialPort.h" />
+    <ClInclude Include="Include\Trigger_recipe.h" />
+    <ClInclude Include="Include\ui_cmd.h" />
+    <ClInclude Include="Include\Xml\Xml.h" />
+    <ClInclude Include="Include\_CtrlImageRect.h" />
+    <ClInclude Include="Include\_FuncModuleBasic.h" />
+    <ClInclude Include="Include\_FuncModuleHal.h" />
+    <ClInclude Include="ProcessBar.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="_Font.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="btnenhctrl.cpp" />
+    <ClCompile Include="DialogLogWindow.cpp" />
+    <ClCompile Include="dialog\AccessRight.cpp" />
+    <ClCompile Include="Dialog\DefectList.cpp" />
+    <ClCompile Include="Dialog\DialogAFCtrl.cpp" />
+    <ClCompile Include="Dialog\DialogAlign.cpp" />
+    <ClCompile Include="Dialog\DialogCCD.cpp" />
+    <ClCompile Include="Dialog\DialogDFServer.cpp" />
+    <ClCompile Include="Dialog\DialogFilmAlign.cpp" />
+    <ClCompile Include="Dialog\DialogGlass.cpp" />
+    <ClCompile Include="Dialog\DialogGlassManuCtrl.cpp" />
+    <ClCompile Include="Dialog\DialogInline.cpp" />
+    <ClCompile Include="Dialog\DialogIOCtrl.cpp" />
+    <ClCompile Include="Dialog\DialogIPSCtrl.cpp" />
+    <ClCompile Include="Dialog\DialogLightCtrl.cpp" />
+    <ClCompile Include="Dialog\DialogLogAlarm.cpp" />
+    <ClCompile Include="Dialog\DialogLogin.cpp" />
+    <ClCompile Include="Dialog\DialogMainInfo.cpp" />
+    <ClCompile Include="Dialog\DialogMotorCtrl.cpp" />
+    <ClCompile Include="Dialog\DialogMSG.cpp" />
+    <ClCompile Include="Dialog\DialogRecipe.cpp" />
+    <ClCompile Include="Dialog\DialogRecipeCell.cpp" />
+    <ClCompile Include="dialog\DialogRecipeCellPCL.cpp" />
+    <ClCompile Include="Dialog\DialogRecipeModel.cpp" />
+    <ClCompile Include="Dialog\DialogRecipePanel.cpp" />
+    <ClCompile Include="Dialog\DialogRecipeScan.cpp" />
+    <ClCompile Include="Dialog\DialogReview.cpp" />
+    <ClCompile Include="Dialog\DialogSystem.cpp" />
+    <ClCompile Include="Dialog\DialogTriggerCtrl.cpp" />
+    <ClCompile Include="EMIControl.cpp" />
+    <ClCompile Include="EMIControlDlg.cpp" />
+    <ClCompile Include="Include\Clientsok.CPP" />
+    <ClCompile Include="Include\CommThread.cpp" />
+    <ClCompile Include="Include\FTP\FPTClient.cpp" />
+    <ClCompile Include="Include\Hash.cpp" />
+    <ClCompile Include="Include\PLC.cpp" />
+    <ClCompile Include="Include\PLCComm.cpp" />
+    <ClCompile Include="Include\PMAC.cpp" />
+    <ClCompile Include="Include\PMACComm.cpp" />
+    <ClCompile Include="Include\recipe.cpp" />
+    <ClCompile Include="Include\Runtime.cpp" />
+    <ClCompile Include="Include\SerialPort.cpp" />
+    <ClCompile Include="Include\ui_cmd.cpp" />
+    <ClCompile Include="Include\Xml\Xml.cpp" />
+    <ClCompile Include="ProcessBar.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EMIControl.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Include\_CtrlImageRect.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="EMIControl.rc" _x007B_40B5CE81-C5A8-11D2-8183-00002440DFD8_x007D_="CBtnenhctrl" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{5070c08c-babd-45c9-a90d-3b40e15e217d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{3895cae5-1366-4cbb-8b49-8fcdc9f20fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog\inline">
+      <UniqueIdentifier>{1261d8bf-f42c-4ec6-bdbf-510744082ea2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\EMIControl.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\EMIControl.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\INVENIA.png">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\INVENIA.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\icon1.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\ACCW.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\ACW.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bitmap_i.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\panel.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Machine0.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Machine1.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bmp00001.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\bmp00002.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="EMIControl_ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EMIControl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="EMIControlDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogMainInfo.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogSystem.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogReview.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogMotorCtrl.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogAFCtrl.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogIPSCtrl.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogLightCtrl.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogLogin.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\_CtrlImageRect.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="_Font.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="btnenhctrl.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogAlign.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogGlass.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Runtime.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PMACComm.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PMAC.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\_FuncModuleBasic.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\_FuncModuleHal.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogIOCtrl.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SerialPort.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogRecipe.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogRecipePanel.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Ezi\FAS_EziMOTIONPlusR.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\atf_def.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\atf_lib.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ui_cmd.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\epp.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogGlassManuCtrl.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogRecipeCell.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogFilmAlign.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogTriggerCtrl.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CommThread.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Trigger_recipe.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Clientsok.H">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\recipe.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogRecipeScan.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogLogAlarm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogCCD.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PLC.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PLCComm.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogRecipeModel.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogMSG.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogInline.h">
+      <Filter>Dialog\inline</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\Inline_define.h">
+      <Filter>Dialog\inline</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\Inline_typedef.h">
+      <Filter>Dialog\inline</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessBar.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogLogWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Xml\Xml.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DialogDFServer.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog\DefectList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Hash.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FTP\FPTClient.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog\AccessRight.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog\DialogRecipeCellPCL.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EMIControl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="EMIControlDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogMainInfo.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogSystem.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogReview.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogMotorCtrl.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogAFCtrl.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogIPSCtrl.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogLightCtrl.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogLogin.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="btnenhctrl.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogAlign.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogGlass.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Runtime.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\PMACComm.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\PMAC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogIOCtrl.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\SerialPort.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogRecipe.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogRecipePanel.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\ui_cmd.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogGlassManuCtrl.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogRecipeCell.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogFilmAlign.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogTriggerCtrl.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Clientsok.CPP">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\recipe.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\CommThread.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogRecipeScan.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogLogAlarm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogCCD.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\PLC.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\PLCComm.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogRecipeModel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogMSG.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogInline.cpp">
+      <Filter>Dialog\inline</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessBar.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogLogWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Xml\Xml.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DialogDFServer.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog\DefectList.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\Hash.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\FTP\FPTClient.cpp">
+      <Filter>Include</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\AccessRight.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\DialogRecipeCellPCL.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EMIControl.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Include\_CtrlImageRect.lib">
+      <Filter>Include</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,71 @@
+﻿빌드 시작: 2015-11-29 오후 9:14:36
+     1>2 노드의 "D:\Working\EMI\EMIControl\EMIControl\EMIControl\EMIControl.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\EMIControl.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /ID:\working\emi\EMIControl\EMIControl\EMIControl\Include\Ezi /ID:\Working\EMI\EMIControl\EMIControl\EMIControl\Include\SerialPort /I"C:\Program Files\Matrox Imaging\Mil\Include" /I"C:\Program Files\MVTec\HALCON-12.0\include" /I"C:\Program Files\MVTec\HALCON-12.0\include\cpp" /ID:\Working\EMI\EMIControl\EMIControl\EMIControl\Include /ID:\Working\EMI\EMIControl\EMIControl\EMIControl /I"C:\Program Files\Toshiba Teli\TeliCamSDK\TeliCamApi\include" /Zi /nologo /W3 /WX- /Od /D WIN64 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"x64\Debug\EMIControl.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt Dialog\DialogFilmAlign.cpp
+         DialogFilmAlign.cpp
+     1>D:\Working\EMI\EMIControl\EMIControl\EMIControl\include/_FuncModuleBasic.h(34): warning C4005: 'DAT_STR_LENG' : 매크로 재정의
+                 d:\working\emi\emicontrol\emicontrol\emicontrol\Define.h(2) : 'DAT_STR_LENG'의 이전 정의를 참조하십시오.
+     1>D:\Working\EMI\EMIControl\EMIControl\EMIControl\Dialog/DialogFilmAlign.h(8): warning C4005: 'FILM_ALIGN_MAX_NUM' : 매크로 재정의
+                 D:\Working\EMI\EMIControl\EMIControl\EMIControl\Dialog/DialogFilmAlign.h(6) : 'FILM_ALIGN_MAX_NUM'의 이전 정의를 참조하십시오.
+     1>Dialog\DialogFilmAlign.cpp(380): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>Dialog\DialogFilmAlign.cpp(387): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>Dialog\DialogFilmAlign.cpp(274): warning C4101: 'Herr' :참조되지 않은 지역 변수입니다.
+     1>Dialog\DialogFilmAlign.cpp(269): warning C4101: 'path_temp' :참조되지 않은 지역 변수입니다.
+     1>Dialog\DialogFilmAlign.cpp(409): warning C4101: 'Herr' :참조되지 않은 지역 변수입니다.
+     1>Dialog\DialogFilmAlign.cpp(402): warning C4101: 'temp' :참조되지 않은 지역 변수입니다.
+     1>Dialog\DialogFilmAlign.cpp(403): warning C4101: 'ctemp' :참조되지 않은 지역 변수입니다.
+     1>Dialog\DialogFilmAlign.cpp(404): warning C4101: 'path_temp' :참조되지 않은 지역 변수입니다.
+     1>Dialog\DialogFilmAlign.cpp(602): warning C4244: '=' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>Dialog\DialogFilmAlign.cpp(621): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>Dialog\DialogFilmAlign.cpp(596): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Working\EMI\EMIControl\EMIControl\x64\Debug\EMIControl.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\working\emi\EMIControl\EMIControl\EMIControl\Include\Ezi /LIBPATH:"C:\Program Files\Matrox Imaging\Mil\LIB" /LIBPATH:"C:\Program Files\MVTec\HALCON-12.0\lib\x64-win64" /LIBPATH:D:\Working\EMI\EMIControl\EMIControl\EMIControl\Include /LIBPATH:"C:\Program Files\Toshiba Teli\TeliCamSDK\TeliCamApi/lib/x64" mil.lib halconcpp10XL.lib include/_CtrlImageRect.lib winmm.lib TeliCamApi64.lib XListCtrlDDDU.lib include/_FuncModuleBasic.lib include/_FuncModuleHal.lib TeliCamUtl64.lib atf_lib_dll.lib MdFunc32.lib EziMOTIONPlusRx64.lib atf_lib.lib /NODEFAULTLIB:LIBCMT.lib /MANIFEST /ManifestFile:"x64\Debug\EMIControl.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Working\EMI\EMIControl\EMIControl\x64\Debug\EMIControl.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Working\EMI\EMIControl\EMIControl\x64\Debug\EMIControl.lib" /MACHINE:X64 x64\Debug\EMIControl.res
+         x64\Debug\EMIControl.exe.embed.manifest.res
+         x64\Debug\btnenhctrl.obj
+         x64\Debug\DialogAFCtrl.obj
+         x64\Debug\DialogAlign.obj
+         x64\Debug\DialogFilmAlign.obj
+         x64\Debug\DialogGlass.obj
+         x64\Debug\DialogGlassManuCtrl.obj
+         x64\Debug\DialogIOCtrl.obj
+         x64\Debug\DialogIPSCtrl.obj
+         x64\Debug\DialogLightCtrl.obj
+         x64\Debug\DialogLogin.obj
+         x64\Debug\DialogMainInfo.obj
+         x64\Debug\DialogMotorCtrl.obj
+         x64\Debug\DialogRecipe.obj
+         x64\Debug\DialogRecipeCell.obj
+         x64\Debug\DialogRecipePanel.obj
+         x64\Debug\DialogReview.obj
+         x64\Debug\DialogSystem.obj
+         x64\Debug\EMIControl.obj
+         x64\Debug\EMIControlDlg.obj
+         x64\Debug\PMAC.obj
+         x64\Debug\PMACComm.obj
+         x64\Debug\Runtime.obj
+         x64\Debug\SerialPort.obj
+         x64\Debug\ui_cmd.obj
+         x64\Debug\stdafx.obj
+         Include\_CtrlImageRect.lib
+         EMIControl.vcxproj -> D:\Working\EMI\EMIControl\EMIControl\x64\Debug\EMIControl.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\EMIControl.exe.embed.manifest" /manifest x64\Debug\EMIControl.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         EMIControl.vcxproj -> D:\Working\EMI\EMIControl\EMIControl\x64\Debug\EMIControl.exe
+       FinalizeBuildStatus:
+         "x64\Debug\EMIControl.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "x64\Debug\EMIControl.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\Working\EMI\EMIControl\EMIControl\EMIControl\EMIControl.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.14
